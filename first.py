@@ -3,7 +3,7 @@ Python
 '''
 # Primeiro Codigo
 
-# input maneira de inserir algo na variavel
+# Input maneira de inserir algo na variavel
 
 nome = input('Qual o seu nome ? : ')
 x = input('Qual o primeiro numero ? : ')
@@ -19,7 +19,18 @@ z = str(z)
 print('Olá '+ nome)
 print('Resultado da soma é de : ' + z)
 
-# formatar texto
+# Formatar texto
 
 resultado = f'Olá {nome} o resultado da soma dos numeros é {z}'
 print(resultado)
+
+# Metodos para strings
+
+# Tudo em Letra maiscula
+print(resultado.upper())
+
+# Tudo em Letra Minuscula
+print(resultado.lower())
+
+# Trocar alguma coisa pela outra
+print(resultado.replace('Olá','Oi'))
