@@ -14,7 +14,12 @@ ou int() para converter em int ou float() e etc...
 '''
 
 z = int(x) + int(y)
+z = str(z)
 
 print('Olá '+ nome)
-print('Resultado da soma é de : ' + str(z))
+print('Resultado da soma é de : ' + z)
 
+# formatar texto
+
+resultado = f'Olá {nome} o resultado da soma dos numeros é {z}'
+print(resultado)
